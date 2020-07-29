@@ -1,1 +1,28 @@
+{
+    "model":{
+        "path_train_csvFile" : "data/data_csv/trainFile.csv",
+        "path_train_data" : "data/dataset/real/",
+        "path_model" : "ckpt/temp/",
+        "path_test" : "test/",
+        "model_name": "ganAn000124.pth",
+        "lr" : 0.0002,
+        "batch_size" : 64,
+        "image_size" : 64,
+        "img_channels" : 3,
+        "noise_channels" : 256,
+        "features_d" : 16,
+        "features_g" : 16,
+        "num_epochs" : 1000
 
+    },
+    "pre_data":{
+        "path_real_data" : "data/dataset/real/",
+        "path_pickleFile" : "data/pickle/",
+        "file_name" : "Real_df.pickle"
+    },
+    "csv":{
+        "path": "data/",
+        "csvfiles_train": "data_csv/trainFile.csv",
+        "copy_pics": false
+    }
+}
